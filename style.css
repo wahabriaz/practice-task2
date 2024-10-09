@@ -1,0 +1,159 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.common-btn{
+    border: none;
+    background: #b81479;
+    padding:10px 20px;
+    color: white;
+}
+
+/* header style */
+.band-text{
+    margin-left: -30px;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.influencer-nav>ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-size: large;
+   
+    
+}
+.influencer-nav>ul>li{
+    list-style: none;
+    
+}
+.influencer-nav>ul>li>a{
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+/* banner style */
+.header-banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+    padding: 120px;
+}
+.banner-text{
+    width: 80%;
+    font-size: x-large;
+    margin:60px 0px 0px 50px;
+}
+.banner-text>p{
+    font-size: medium;
+}
+.banner-img{
+    background-image: url(./Batch9-influencer-gear-main/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+
+}
+.main-camera{
+    padding: 30px;
+}
+
+
+/* sponsor image */
+.sponsors-img-section{
+    display: flex;
+    justify-content:space-evenly;
+    border-top: 1px solid  rgb(196, 196, 196);
+    border-bottom: 1px solid rgb(196, 196, 196);
+    width: 900px;
+    padding: 15px;
+    margin-left: 220px;
+    
+    
+}
+.sponsors-img{
+    width: 9%;
+    align-items: center;
+}
+.amazan{
+    margin-top: 20px;
+}
+
+/*collection style */
+
+.collection-head{
+    text-align: center;
+    margin:120px 0px 50px 0px;
+}
+.collection-card{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 60px rgb(189, 189, 189);
+    padding: 15px
+}
+
+.card-body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    width: 850px;
+    margin-left: 240px;
+   
+  
+}
+
+.card-img{
+ width: 100%;
+    
+}
+
+.see-more{
+    text-align:right;
+    margin-right: 280px;
+    margin-top: 50px;
+}
+.card-link{
+    text-decoration: none;
+    color: red;
+    
+}
+
+.Featured-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 210px;
+    align-items: center;
+    margin-top: -50px;
+}
+.Featured-text>h1{
+    font-size: xx-large;
+
+}
+.Featured-text>p{
+    font-size:small;
+    color: #000;
+
+}
+
+
+/* footer style */
+.footer{
+    background: #280846;
+    padding: 60px;
+    text-align: center;
+    margin-top: -40px;
+}
+.footer-section>h1,p{
+    color: white;
+}
+.icon{
+    color: white;
+    
+}
+.gap{
+    margin: 10px;
+}
